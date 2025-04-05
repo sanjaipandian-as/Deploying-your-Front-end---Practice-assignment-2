@@ -5,7 +5,7 @@ const TravelDashboard = () => {
     <div className="flex h-screen bg-gray-900 text-white">
       {/* Sidebar */}
       <div className="w-64 bg-gray-800 p-6 flex flex-col">
-        <h2 className="text-blue-400 text-2xl font-bold mb-6">Fox Travels</h2>
+        <h2 className="text-blue-400 text-2xl font-bold mb-6">Kalvium Travels</h2>
         <ul className="space-y-3">
           <li className="bg-blue-500 p-3 rounded-lg cursor-pointer">Dashboard</li>
           <li className="p-3 rounded-lg cursor-pointer hover:bg-blue-500">My Tickets</li>
@@ -55,6 +55,7 @@ const TravelDashboard = () => {
       {/* Right Sidebar */}
       <div className="w-64 bg-gray-800 p-6">
         <div className="bg-gray-700 p-4 rounded-lg text-center mb-6">
+          <h2>Kalvium Calander</h2>
           <h3 className="text-lg">September 2022</h3>
           <p className="mt-2">Sun Mon Tue Wed Thu Fri Sat</p>
           <p>1 2 3</p>
